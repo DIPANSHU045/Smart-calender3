@@ -1,11 +1,13 @@
+# Web Framework
 streamlit
-streamlit-calendar
-spacy
-pandas
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# NLP & Language Processing
 spacy>=3.7.0
-# Directly installs the English model via URL to avoid 'Unable to locate package' errors
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
-# Add any other libraries your app uses, such as:
-# pandas
-# datetime
+
+# Date & Time Handling (Common for Calendars)
+python-dateutil
+parsedatetime
+
+# Data Handling
+pandas
